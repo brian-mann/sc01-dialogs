@@ -13,4 +13,5 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
-.DS_Store/log/generators
+.DS_Store
+/lib/generators
