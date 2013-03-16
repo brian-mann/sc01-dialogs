@@ -2,10 +2,13 @@
 	
 	List.Controller =
 		
-		listEvents: ->
+		list: ->
 			events = App.request "event:entities"
 
 			listView = @getListView events
+			
+			listView.on "itemview:edit:event:clicked", (event) ->
+				App.vent.trigger "edit:event:clicked", event
 		
 			App.mainRegion.show listView
 		
