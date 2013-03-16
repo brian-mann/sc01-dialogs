@@ -1,0 +1,13 @@
+<div class="row">
+	<h2>Events</h2>
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th>foo</th>
+			</tr>
+		</thead>
+		<tbody>
+		
+		</tbody>
+	</table>
+</div>
