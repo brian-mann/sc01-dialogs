@@ -3,9 +3,12 @@
 	List.Controller =
 		
 		listEvents: ->
-			listView = @getListView()
-			
+			events = App.request "event:entities"
+
+			listView = @getListView events
+		
 			App.mainRegion.show listView
 		
-		getListView: ->
+		getListView: (events) ->
 			new List.Events
+				collection: events

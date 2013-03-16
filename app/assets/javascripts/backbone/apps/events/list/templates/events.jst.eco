@@ -1,13 +1,15 @@
 <div class="row">
 	<h2>Events</h2>
-	<table class="table table-bordered">
+	<table class="table table-striped table-bordered table-hover">
 		<thead>
 			<tr>
-				<th>foo</th>
+				<th>ID</th>
+				<th>Date</th>
+				<th>Event</th>
+				<th>Description</th>
+				<th>Actions</th>
 			</tr>
 		</thead>
-		<tbody>
-		
-		</tbody>
+		<tbody></tbody>
 	</table>
 </div>
