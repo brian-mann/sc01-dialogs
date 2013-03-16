@@ -4,6 +4,9 @@
 		
 		edit: (event) ->
 			editView = @getEditView event
+			
+			editView.on "dialog:button:clicked", ->
+				console.warn "dialog:button:clicked"
 			window.edit = editView
 			window.event = event
 			

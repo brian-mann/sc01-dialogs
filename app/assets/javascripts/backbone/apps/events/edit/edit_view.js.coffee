@@ -5,9 +5,9 @@
 		
 		modelEvents:
 			"change:name" : -> console.log "name changed"
-			
-		events:
-			"click #ok-button" : "dialog:close"
+		
+		onDialogButtonClicked: ->
+			console.log "onDialogButtonClicked"
 		
 		# dialog:
 			# title: "Edit Event"

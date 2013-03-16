@@ -21,7 +21,8 @@ do (Backbone, Marionette) ->
 				buttons: [
 					text: "Ok"
 					click: =>
-						@closeDialog()
+						@currentView.triggerMethod "dialog:button:clicked" #onDialogButtonClicked
+						# @closeDialog()
 				]
 		
 		setupBindings: (view) ->
