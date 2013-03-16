@@ -3,5 +3,12 @@
 	class Edit.Event extends Marionette.ItemView
 		template: "events/edit/templates/event"
 		
-		onShow: ->
-			@$el.dialog()
+		modelEvents:
+			"change:name" : -> console.log "name changed"
+		
+		# onShow: ->
+		# 	@$el.dialog
+		# 		title: "Edit Event"
+		# 		close: (e, ui) =>
+		# 			@trigger "dialog:closed"
+		# 			# App.dialogRegion.close()

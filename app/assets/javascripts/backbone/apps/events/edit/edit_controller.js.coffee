@@ -4,6 +4,7 @@
 		
 		edit: (event) ->
 			editView = @getEditView event
+			window.event = event
 			
 			App.dialogRegion.show editView
 		
