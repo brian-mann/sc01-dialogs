@@ -9,9 +9,9 @@
 		
 		getEvents: ->
 			new Entities.EventsCollection [
-				{ id: 1, date: "03/14/2013", name: "foo", description: "bar" }
-				{ id: 2, date: "03/16/2013", name: "foo2", description: "bar2" }
-				{ id: 3, date: "03/21/2013", name: "foo3", description: "bar3" }
+				{ id: 1, date: "03/14/2013", name: "Birthday",		description: "Age is a high price to pay for maturity." }
+				{ id: 2, date: "03/17/2013", name: "Screencasts", description: "Release new screencasts, and update the site." }
+				{ id: 3, date: "03/27/2013", name: "Blog", 				description: "Finish writing epic blog post." }
 			]
 	
 	App.reqres.addHandler "event:entities", ->
