@@ -5,10 +5,14 @@
 		
 		modelEvents:
 			"change:name" : -> console.log "name changed"
+			
+		events:
+			"click #ok-button" : "dialog:close"
 		
-		# onShow: ->
-		# 	@$el.dialog
-		# 		title: "Edit Event"
-		# 		close: (e, ui) =>
-		# 			@trigger "dialog:closed"
-		# 			# App.dialogRegion.close()
+		# dialog:
+			# title: "Edit Event"
+			# size: "small"
+			# className: "fooClass"
+			# buttons:
+			# 	cancel: false
+			# 	submit: "Ok, Edit Event!"
