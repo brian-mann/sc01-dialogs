@@ -11,6 +11,7 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
+//= require jquery.ui.dialog
 //= require lib/underscore
 //= require lib/backbone
 //= require lib/marionette
@@ -18,4 +19,3 @@
 //= require backbone/app
 //= require_tree ./backbone/apps
 //= require_tree ./backbone/entities
-//= require_tree ./backbone/views
