@@ -5,7 +5,7 @@
 	App.addRegions
 		headerRegion:	"#header-region"
 		mainRegion: 	"#main-region"
-		dialogRegion: "#dialog-region"
+		dialogRegion: Marionette.Region.Dialog
 		loginRegion: 	"#login-region"
 	
 	App.addInitializer ->
