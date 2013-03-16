@@ -19,7 +19,7 @@ do (Backbone, Marionette) ->
 				title: "default title"
 				dialogClass: options.className
 				buttons: [
-					text: "Ok"
+					text: options.button ? "Ok"
 					click: =>
 						@currentView.triggerMethod "dialog:button:clicked" #onDialogButtonClicked
 						# @closeDialog()
@@ -28,6 +28,7 @@ do (Backbone, Marionette) ->
 		setupBindings: (view) ->
 			@listenTo view, "dialog:close", @closeDialog
 			@listenTo view, "dialog:resize", @resizeDialog
+			@listenTo view, "dialog:title", @titleizeDialog
 		
 		closeDialog: ->
 			console.log "closing dialog"
@@ -37,4 +38,9 @@ do (Backbone, Marionette) ->
 		
 		resizeDialog: ->
 			console.log "resizing dialog"
-			@$el.dialog "option", "position", "center"
+			@$el.dialog "option", 
+				position: "center"
+		
+		titleizeDialog: (title) ->
+			@$el.dialog "option",
+				title: title
