@@ -5,11 +5,17 @@
 		
 		modelEvents:
 			"change:name" : -> console.log "name changed"
-			
-		onDialogButtonClicked: ->
-			console.log "onDialogButtonClicked"
-		
+	
 		dialog:
 			title: "Edit Event"
 			className: "fooClass"
 			button: "Save"
+		
+		onRender: ->
+			console.warn "onRender"
+		
+		onShow: ->
+			console.log "onShow"
+			
+		onDialogButtonClicked: ->
+			console.log "onDialogButtonClicked"

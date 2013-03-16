@@ -18,6 +18,7 @@ do (Backbone, Marionette) ->
 			_.defaults options,
 				title: "default title"
 				dialogClass: options.className
+				width: "auto"
 				buttons: [
 					text: options.button ? "Ok"
 					click: =>

@@ -1,3 +1,26 @@
-edit event!
-
-<button id="ok-button">Ok</button>
+<form class="form-horizontal">
+	<div class="control-group">
+		<label class="control-label">ID:</label>
+		<div class="controls">
+			<span class="help-inline"><%= @id %>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="event-date">Date:</label>
+		<div class="controls">
+			<input type="text" id="event-date" value="<%= @date %>" name="date" />
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="event-name">Name:</label>
+		<div class="controls">
+			<input type="text" id="event-name" value="<%= @name %>" name="value" />
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="event-description">Description:</label>
+		<div class="controls">
+			<textarea id="event-description" name="description"><%= @description %></textarea>
+		</div>
+	</div>
+</form>
