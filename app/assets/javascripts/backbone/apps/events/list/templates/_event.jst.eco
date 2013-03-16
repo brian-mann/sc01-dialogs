@@ -3,5 +3,8 @@
 <td><%= @name %></td>
 <td><%= @description %></td>
 <td>
-	<button type="button" class="btn btn-small">edit</button>
+	<button type="button" class="btn btn-small">
+		<i class="icon-edit"></i>
+		Edit
+	</button>
 </td>
