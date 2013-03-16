@@ -4,7 +4,4 @@
 		template: "events/edit/templates/event"
 		
 		onShow: ->
-			@$el.dialog
-				modal: true
-				resizable: false
-				draggable: false
+			@$el.dialog()
