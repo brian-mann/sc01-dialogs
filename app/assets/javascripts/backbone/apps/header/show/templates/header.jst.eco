@@ -1,0 +1,16 @@
+<div id="header" class="navbar">
+	<div class="navbar-inner">
+		<div class="container">
+			<div class="row">
+				<div class="pull-left">
+					<span class="brand">Dialog Demo</span>
+				</div>
+				<ul class="nav pull-right">
+					<li>
+						<a href="#">Login</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
