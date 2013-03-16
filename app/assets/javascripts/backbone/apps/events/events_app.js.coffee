@@ -8,7 +8,7 @@
 		edit: (event) ->
 			EventsApp.Edit.Controller.edit event
 	
-	App.vent.on "edit:event:clicked", (iv, event) ->
+	App.vent.on "edit:event:clicked", (event) ->
 		API.edit(event)
 	
 	EventsApp.on "start", ->

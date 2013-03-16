@@ -7,7 +7,7 @@
 
 			listView = @getListView events
 			
-			listView.on "itemview:edit:event:clicked", (event) ->
+			listView.on "itemview:edit:event:clicked", (iv, event) ->
 				App.vent.trigger "edit:event:clicked", event
 		
 			App.mainRegion.show listView
