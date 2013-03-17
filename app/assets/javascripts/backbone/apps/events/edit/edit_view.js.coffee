@@ -1,21 +1,21 @@
 @Dialogs.module "EventsApp.Edit", (Edit, App, Backbone, Marionette, $, _) ->
 	
 	class Edit.Event extends Marionette.ItemView
-		template: "events/edit/templates/event"
+		template: "events/edit/templates/edit_event"
 		
 		modelEvents:
 			"change:name" : -> console.log "name changed"
-	
+		
+		events:
+			"click #close-dialog" : -> @trigger "dialog:close"
+		
 		dialog:
 			title: "Edit Event"
-			className: "fooClass"
-			button: "Save"
+			className: "dialogClass"
+			buttons: false
 		
-		onRender: ->
-			console.warn "onRender"
+		onClose: ->
+			console.log "view closing"
 		
-		onShow: ->
-			console.log "onShow"
-			
 		onDialogButtonClicked: ->
-			console.log "onDialogButtonClicked"
+			console.log "dialog method onDialogButtonClicked"

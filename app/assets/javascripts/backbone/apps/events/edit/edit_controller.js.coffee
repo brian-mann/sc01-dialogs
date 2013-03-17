@@ -3,12 +3,12 @@
 	Edit.Controller =
 		
 		edit: (event) ->
+			window.event = event
 			editView = @getEditView event
+			window.editView = editView
 			
 			editView.on "dialog:button:clicked", ->
-				console.warn "dialog:button:clicked"
-			window.edit = editView
-			window.event = event
+				console.log "editView instance dialog:button:clicked"
 			
 			App.dialogRegion.show editView
 		

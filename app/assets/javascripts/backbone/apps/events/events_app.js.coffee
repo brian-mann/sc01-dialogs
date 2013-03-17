@@ -10,6 +10,6 @@
 	
 	App.vent.on "edit:event:clicked", (event) ->
 		API.edit(event)
-	
+		
 	EventsApp.on "start", ->
 		API.list()

@@ -1,13 +1,12 @@
 do (Backbone, Marionette) ->
 	
-	class Marionette.Region.Dialog extends Backbone.Marionette.Region
-		el: "#dialog-region"
+	class Marionette.Region.Dialog extends Marionette.Region
 		
 		constructor: ->
 			_.extend @, Backbone.Events
 		
 		onShow: (view) ->
-			@setupBindings(view)
+			@setupBindings view			
 			
 			options = @getDefaultOptions _.result(view, "dialog")
 			@$el.dialog options,
@@ -18,12 +17,10 @@ do (Backbone, Marionette) ->
 			_.defaults options,
 				title: "default title"
 				dialogClass: options.className
-				width: "auto"
 				buttons: [
 					text: options.button ? "Ok"
 					click: =>
 						@currentView.triggerMethod "dialog:button:clicked" #onDialogButtonClicked
-						# @closeDialog()
 				]
 		
 		setupBindings: (view) ->
@@ -32,14 +29,13 @@ do (Backbone, Marionette) ->
 			@listenTo view, "dialog:title", @titleizeDialog
 		
 		closeDialog: ->
-			console.log "closing dialog"
 			@stopListening()
 			@close()
 			@$el.dialog("destroy")
 		
 		resizeDialog: ->
 			console.log "resizing dialog"
-			@$el.dialog "option", 
+			@$el.dialog "option",
 				position: "center"
 		
 		titleizeDialog: (title) ->

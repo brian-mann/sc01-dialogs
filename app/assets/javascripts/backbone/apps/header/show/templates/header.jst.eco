@@ -5,11 +5,11 @@
 				<div class="pull-left">
 					<span class="brand">Dialog Demo</span>
 				</div>
-				<ul class="nav pull-right">
+				<!-- <ul class="nav pull-right">
 					<li>
 						<a href="#">Login</a>
 					</li>
-				</ul>
+				</ul> -->
 			</div>
 		</div>
 	</div>

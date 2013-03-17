@@ -5,8 +5,7 @@
 	App.addRegions
 		headerRegion:	"#header-region"
 		mainRegion: 	"#main-region"
-		dialogRegion: Marionette.Region.Dialog
-		loginRegion: 	"#login-region"
+		dialogRegion: Marionette.Region.Dialog.extend el: "#dialog-region"
 	
 	App.addInitializer ->
 		App.module("HeaderApp").start()
