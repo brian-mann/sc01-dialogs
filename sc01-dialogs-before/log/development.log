@@ -1,0 +1,274 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-30 00:38:53 +0100
+Connecting to database specified by database.yml
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (2.3ms)
+Compiled jquery.ui.core.css  (1ms)  (pid 7770)
+Compiled jquery.ui.theme.css  (8ms)  (pid 7770)
+Compiled jquery.ui.button.css  (3ms)  (pid 7770)
+Compiled jquery.ui.resizable.css  (3ms)  (pid 7770)
+Compiled jquery.ui.dialog.css  (46ms)  (pid 7770)
+Compiled application.css  (2491ms)  (pid 7770)
+Compiled jquery.js  (1ms)  (pid 7770)
+Compiled jquery.ui.core.js  (0ms)  (pid 7770)
+Compiled jquery.ui.widget.js  (0ms)  (pid 7770)
+Compiled jquery.ui.button.js  (2ms)  (pid 7770)
+Compiled jquery.ui.mouse.js  (2ms)  (pid 7770)
+Compiled jquery.ui.draggable.js  (12ms)  (pid 7770)
+Compiled jquery.ui.position.js  (19ms)  (pid 7770)
+Compiled jquery.ui.resizable.js  (5ms)  (pid 7770)
+Compiled jquery.ui.dialog.js  (110ms)  (pid 7770)
+Compiled lib/underscore.js  (0ms)  (pid 7770)
+Compiled lib/backbone.js  (0ms)  (pid 7770)
+Compiled lib/marionette.js  (0ms)  (pid 7770)
+Compiled backbone/config/jquery-ui.js  (444ms)  (pid 7770)
+Compiled backbone/config/marionette/regions/dialogs.js  (149ms)  (pid 7770)
+Compiled backbone/config/marionette/renderer.js  (122ms)  (pid 7770)
+Compiled backbone/app.js  (125ms)  (pid 7770)
+Compiled backbone/apps/events/events_app.js  (123ms)  (pid 7770)
+Compiled backbone/apps/events/list/list_controller.js  (124ms)  (pid 7770)
+Compiled backbone/apps/events/list/list_view.js  (124ms)  (pid 7770)
+Compiled backbone/apps/events/list/templates/_event.js  (128ms)  (pid 7770)
+Compiled backbone/apps/events/list/templates/events.js  (145ms)  (pid 7770)
+Compiled backbone/apps/header/header_app.js  (126ms)  (pid 7770)
+Compiled backbone/apps/header/show/show_controller.js  (124ms)  (pid 7770)
+Compiled backbone/apps/header/show/show_view.js  (120ms)  (pid 7770)
+Compiled backbone/apps/header/show/templates/header.js  (127ms)  (pid 7770)
+Compiled backbone/entities/events.js  (136ms)  (pid 7770)
+Compiled application.js  (2489ms)  (pid 7770)
+Completed 200 OK in 5177ms (Views: 5176.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /jquery.ui.core.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /jquery.ui.widget.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /jquery.ui.button.js - 200 OK (24ms)
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /jquery.ui.mouse.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /jquery.ui.draggable.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /jquery.ui.position.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /jquery.ui.resizable.js - 200 OK (4ms)
+
+
+Started GET "/assets/lib/marionette.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /lib/marionette.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /jquery.ui.dialog.js - 200 OK (7ms)
+
+
+Started GET "/assets/lib/underscore.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /lib/underscore.js - 200 OK (1ms)
+
+
+Started GET "/assets/lib/backbone.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /lib/backbone.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/backbone/config/jquery-ui.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /backbone/config/jquery-ui.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/config/marionette/regions/dialogs.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /backbone/config/marionette/regions/dialogs.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/apps/events/list/list_controller.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /backbone/apps/events/list/list_controller.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/apps/events/list/list_view.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /backbone/apps/events/list/list_view.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/apps/events/list/templates/_event.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /backbone/apps/events/list/templates/_event.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/apps/header/header_app.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /backbone/apps/header/header_app.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/apps/events/list/templates/events.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /backbone/apps/events/list/templates/events.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/apps/events/events_app.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /backbone/apps/events/events_app.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/apps/header/show/show_controller.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /backbone/apps/header/show/show_controller.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/apps/header/show/show_view.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /backbone/apps/header/show/show_view.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/apps/header/show/templates/header.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /backbone/apps/header/show/templates/header.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/entities/events.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /backbone/entities/events.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/config/marionette/renderer.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /backbone/config/marionette/renderer.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/app.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /backbone/app.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 00:38:58 +0100
+Served asset /application.js - 200 OK (26ms)
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2013-03-30 00:38:59 +0100
+Served asset /twitter/bootstrap/glyphicons-halflings.png - 200 OK (31ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-30 00:39:08 +0100
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /jquery.ui.button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /jquery.ui.mouse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /jquery.ui.draggable.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /jquery.ui.resizable.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /jquery.ui.dialog.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/underscore.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /lib/underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/backbone.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /lib/backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/marionette.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /lib/marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/config/jquery-ui.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /backbone/config/jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/config/marionette/regions/dialogs.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /backbone/config/marionette/regions/dialogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/config/marionette/renderer.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /backbone/config/marionette/renderer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/app.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /backbone/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/events/events_app.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /backbone/apps/events/events_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/events/list/list_controller.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /backbone/apps/events/list/list_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/events/list/list_view.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /backbone/apps/events/list/list_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/events/list/templates/_event.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /backbone/apps/events/list/templates/_event.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/events/list/templates/events.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /backbone/apps/events/list/templates/events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/header/header_app.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /backbone/apps/header/header_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/header/show/show_controller.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /backbone/apps/header/show/show_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/header/show/show_view.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /backbone/apps/header/show/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/header/show/templates/header.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /backbone/apps/header/show/templates/header.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/entities/events.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /backbone/entities/events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 00:39:09 +0100
+Served asset /application.js - 304 Not Modified (1ms)
